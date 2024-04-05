@@ -1,5 +1,5 @@
 import List from './List'
-import List2 from './List2'
+import List2 from './reusableList'
 
 function App() {
   const vegetables=[{id:6,name:"carrot",calories:95},
