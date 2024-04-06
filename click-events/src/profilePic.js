@@ -1,7 +1,7 @@
 function ProfilePic(){
     
     const imageUrl='https://cdn.pixabay.com/photo/2017/07/13/19/51/sunset-2501727_960_720.png';
-    const handleClick=(e) => e.target.style.display="none";
+    const handleClick=(e) => e.target.style.display="none";//when u click the btn the image get dissapear
     return(
         <>
         <img onClick={(e)=>handleClick(e)} src={imageUrl} alt="not found"></img>
