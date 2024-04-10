@@ -1,0 +1,50 @@
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 16px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.book-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-details {
+  padding: 8px;
+}
+
+.book-title {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.book-description {
+  font-size: 0.6rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .book-card {
+    width: 100%;
+    margin: 0 0 16px 0;
+  }
+}
+.book-image {
+  max-width: 100%;
+  max-height: 150px; /* Set a max-height for the image */
+  object-fit: cover; /* Scale the image to cover the entire container */
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
