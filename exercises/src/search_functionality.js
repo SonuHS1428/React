@@ -25,23 +25,23 @@ function FilteredList() {
   };
 
   return (
-    <div className='container mx-auto p-5'>
-      <h1 className='text-xl font-bold text-gray-800 mb-4'>Filtered List</h1>
-      <input
-        type="text"
-        placeholder="Search..."
-        value={searchTerm}
-        onChange={handleChange}
-        className='p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-transparent'
-      />
-      <ul className='list-disc pl-5 mt-4'>
-        {/*//map function takes each item from the filteredItems array and returns a <li> (list item) element for it.*/}
-        {filteredItems.map(item => (
-          <li key={item.id} className='text-gray-700 text-lg py-1 '>{item.name}</li>
-        ))}
-      </ul>
+    <div className="flex items-center justify-center min-h-screen bg-blue-100">
+      <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
+        <h1 className="text-xl font-bold text-gray-800 mb-4 text-center">Filtered List</h1>
+        <input
+          type="text"
+          placeholder="Search..."
+          value={searchTerm}
+          onChange={handleChange}
+          className="p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-full"
+        />
+        <ul className="list-disc pl-5 mt-4 grid gap-2">
+          {filteredItems.map(item => (
+            <li key={item.id} className="text-gray-700 text-lg py-2 px-3 rounded-md bg-blue-50">{item.name}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
-
 export default FilteredList;
