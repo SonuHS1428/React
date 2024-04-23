@@ -36,6 +36,8 @@ function FilteredList() {
           className="p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-full"
         />
         <ul className="list-disc pl-5 mt-4 grid gap-2">
+          {/*that transforms the elements of an array using a function you provide. In this case, the function takes each 
+          item from the filteredItems array and returns a <li> (list item) element for it. */}
           {filteredItems.map(item => (
             <li key={item.id} className="text-gray-700 text-lg py-2 px-3 rounded-md bg-blue-50">{item.name}</li>
           ))}
