@@ -7,10 +7,11 @@
 //updating state of an object in react
 
 import React,{useState} from "react";
+
 function UpdaterFunction(){
     const [car,setCar]=useState({year:2024,make:"ford",model:"Mustang"});
 
-    function handleYearChange(event){
+   function handleYearChange(event){
         //when we update the state of car we are going to creating a new obj,spread all of the 
         //current properties of our car and add a year.. and also we are using here a updater function
         setCar(c=>({...c,year:event.target.value}));
