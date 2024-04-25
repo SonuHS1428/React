@@ -12,7 +12,7 @@ function MyComponent(){
 
     return(
         <div>
-            <h1 className="text-3xl pb-2 ml-2">List of Foods</h1>
+            <h1>List of Foods</h1>
             <ul>
                 {food.map((food,index)=>
                 <li key={index} className="ml-4">
