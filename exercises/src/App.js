@@ -5,6 +5,8 @@ import UpdaterFunction from "./updaterFunction"
 import MyComponent from "./updateArray";
 import UpdateArrObj from "./updateArrOfObj";
 import UseEffect from "./useEffect";
+import ResizeWindow from "./useEffectExecercise";
+import DigitalClock from "./digitalClock";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/*<UpdaterFunction/>*/}
       {/*<MyComponent/>*/}
       {/*<UpdateArrObj/>*/}
-      <UseEffect/>
+      {/*<UseEffect/>*/}
+      {/*<ResizeWindow/>*/}
+      <DigitalClock/>
     </div>
   );
 }
