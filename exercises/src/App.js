@@ -7,6 +7,7 @@ import UpdateArrObj from "./updateArrOfObj";
 import UseEffect from "./useEffect";
 import ResizeWindow from "./useEffectExecercise";
 import DigitalClock from "./digitalClock";
+import UseRef from "./useRef";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/*<UpdateArrObj/>*/}
       {/*<UseEffect/>*/}
       {/*<ResizeWindow/>*/}
-      <DigitalClock/>
+      {/*<DigitalClock/>*/}
+      <UseRef/>
     </div>
   );
 }
