@@ -8,6 +8,7 @@ import UseEffect from "./useEffect";
 import ResizeWindow from "./useEffectExecercise";
 import DigitalClock from "./digitalClock";
 import UseRef from "./useRef";
+import StopWatch from "./Stopwatch";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/*<UseEffect/>*/}
       {/*<ResizeWindow/>*/}
       {/*<DigitalClock/>*/}
-      <UseRef/>
+      {/*<UseRef/>*/}
+      <StopWatch/>
     </div>
   );
 }
