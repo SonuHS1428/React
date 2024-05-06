@@ -1,5 +1,5 @@
 import LoginForm from "./user_login_system";
-import './user_login.css'
+//import './user_login.css'
 import SearchFun from "./search_functionality"
 import UpdaterFunction from "./updaterFunction"
 import MyComponent from "./updateArray";
@@ -9,6 +9,8 @@ import ResizeWindow from "./useEffectExecercise";
 import DigitalClock from "./digitalClock";
 import UseRef from "./useRef";
 import StopWatch from "./Stopwatch";
+import ControlledComponent from "./controlledComp";
+import Uncontrolled from "./uncontrolledComp";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/*<ResizeWindow/>*/}
       {/*<DigitalClock/>*/}
       {/*<UseRef/>*/}
-      <StopWatch/>
+      {/*<StopWatch/>*/}
+      <ControlledComponent/>
+      <Uncontrolled/>
     </div>
   );
 }
