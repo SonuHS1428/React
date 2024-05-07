@@ -11,6 +11,7 @@ import UseRef from "./useRef";
 import StopWatch from "./Stopwatch";
 import ControlledComponent from "./controlledComp";
 import Uncontrolled from "./uncontrolledComp";
+import Fetch from "./fetch";
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
       {/*<DigitalClock/>*/}
       {/*<UseRef/>*/}
       {/*<StopWatch/>*/}
-      <ControlledComponent/>
-      <Uncontrolled/>
+      {/*<ControlledComponent/>*/}
+      {/*<Uncontrolled/>*/}
+      <Fetch/>
     </div>
   );
 }
