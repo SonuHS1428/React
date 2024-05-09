@@ -12,6 +12,7 @@ import StopWatch from "./Stopwatch";
 import ControlledComponent from "./controlledComp";
 import Uncontrolled from "./uncontrolledComp";
 import Fetch from "./fetch";
+import Mycomp from "./fetch2";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/*<StopWatch/>*/}
       {/*<ControlledComponent/>*/}
       {/*<Uncontrolled/>*/}
-      <Fetch/>
+      {/*<Fetch/>*/}
+      <Mycomp/>
     </div>
   );
 }
